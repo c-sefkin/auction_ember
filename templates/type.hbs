@@ -26,7 +26,7 @@
 
 {{#each product in products itemController="product"}}
 <p>
-  {{product.text}}
+  {{product.description}}
   <button class="btn btn-xs btn-danger" {{action 'delete'}}>Delete</button>
 </p>
 {{/each}}

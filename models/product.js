@@ -1,4 +1,5 @@
 Auction.Product = DS.Model.extend({
-  text: DS.attr(),
+  description: DS.attr(),
+  owner: DS.attr(),
   type: DS.belongsTo('type', {async: true})
 });
