@@ -1,0 +1,7 @@
+<h1>Testing</h1>
+
+<ul>
+  {{#each type in model}}
+  <li>{{#link-to 'product' product}}{{product.description}}{{/link-to}}</li>
+  {{/each}}
+</ul>
