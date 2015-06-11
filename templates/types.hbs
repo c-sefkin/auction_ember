@@ -1,0 +1,9 @@
+<h1>The Best Auction Site</h1>
+
+<ul>
+  {{#each type in model}}
+  <li>{{#link-to 'type' type}}{{type.title}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'new-type' classNames="btn btn-primary"}}Add a new Product Category{{/link-to}}

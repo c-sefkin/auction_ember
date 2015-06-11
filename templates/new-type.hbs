@@ -1,0 +1,14 @@
+<h1>New Product Category</h1>
+<form>
+  <div class="form-group">
+    <label for="title">Name</label>
+    {{input value=title id="title" class="form-control"}}
+  </div>
+
+  <div class="form-group">
+    <label for="body">Description</label>
+    {{textarea value=body id="body" class="form-control" rows="15"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'save'}}>Save</button>
+</form>

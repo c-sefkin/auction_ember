@@ -1,0 +1,10 @@
+<h2>Submit an item for sale</h2>
+
+<form>
+  <div class="form-group">
+    <label for="text">Description:</label>
+    {{textarea value=text id="text" class="form-control" rows="5"}}
+  </div>
+
+  <button class="btn btn-primary" {{action "save"}}>Submit Item</button>
+</form>
