@@ -4,6 +4,7 @@ Auction.Router.map(function() {
     this.resource('new-product');
     this.resource('product');
   });
+
   this.resource('new-type');
   this.resource('recent-products');
 });
